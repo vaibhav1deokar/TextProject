@@ -40,10 +40,24 @@ public class EmployeeMain {
 		System.out.println();
 	}
 
+	void searchEmployeeData() {
+		System.out.println("Enter Employee id : ");
+		int id = sc.nextInt();
+
+		for (Employee em : emp) {
+			if (em != null) {
+				if (em.getId() == id) {
+					System.out.println(em);
+				}
+			}
+		}
+	}
+
 	public static void main(String[] args) {
 
 		EmployeeMain em = new EmployeeMain();
 		em.addEmpData();
+		em.searchEmployeeData();
 		em.display();
 
 	}
