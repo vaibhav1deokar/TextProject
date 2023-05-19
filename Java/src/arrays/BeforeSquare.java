@@ -7,7 +7,7 @@ public class BeforeSquare {
 		for (int i = 0; i < a.length; i++) {
 			for (j = i; j < a.length; j++) {
 				if (a[i] < 0) {
-					a[j - 1] = a[j] * a[j];
+					a[j] = a[j - 1] * a[j - 1];
 				}
 			}
 			System.out.println(a[i] + " ");

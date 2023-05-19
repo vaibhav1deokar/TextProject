@@ -78,7 +78,7 @@ public class StudentMain {
 		
 		switch(a) {
 		case 'c' :
-//			
+			
 			System.out.println("Enter the updated contact");
 			String con = sc.next();
 			
@@ -90,7 +90,7 @@ public class StudentMain {
 				}
 			}
 		case 'm' :
-//			
+			
 			System.out.println("Enter updated marks");
 			double mrk = sc.nextDouble();
 

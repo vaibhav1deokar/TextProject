@@ -2,6 +2,7 @@ package interfaces;
 
 public class SBI implements BankOperation{
 	
+	
 	public void deposite() {
 		System.out.println("can deposite money from ATM");
 	}

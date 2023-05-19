@@ -5,21 +5,21 @@ public abstract class Car {
 	int price;
 	String colour;
 	
-//	public int getPrice() {
-//		return price;
-//	}
-//
-//	public void setPrice(int price) {
-//		this.price = price;
-//	}
-//
-//	public String getColour() {
-//		return colour;
-//	}
-//
-//	public void setColour(String colour) {
-//		this.colour = colour;
-//	}
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public String getColour() {
+		return colour;
+	}
+
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
 	
 	Car(int price, String colour){
 		this.colour=colour;
@@ -40,6 +40,4 @@ public abstract class Car {
 	void mirror() {
 		System.out.println("Every car has 3 mirror");
 	}
-	
-	
 }

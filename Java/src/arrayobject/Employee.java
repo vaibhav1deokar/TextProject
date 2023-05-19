@@ -2,10 +2,17 @@ package arrayobject;
 
 public class Employee {
 	
-	int id;
-	double salary;
+	public int id;
+	public double salary;
 	String name, dept;
 	
+	public Employee(int id, double salary, String name, String dept) {
+		super();
+		this.id = id;
+		this.salary = salary;
+		this.name = name;
+		this.dept = dept;
+	}
 	public int getId() {
 		return id;
 	}

@@ -11,5 +11,4 @@ public class BankMain {
 		s.balanceCheck();
 		s.moneyTransfer();
 	}
-
 }

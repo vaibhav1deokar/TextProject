@@ -18,7 +18,7 @@ public class EmployeeMain {
 			String dept = sc.next();
 			double salary = sc.nextDouble();
 
-			Employee e = new Employee();
+			Employee e = new Employee(id, salary, name, dept);
 			e.setId(id);
 			e.setName(name);
 			e.setDept(dept);
