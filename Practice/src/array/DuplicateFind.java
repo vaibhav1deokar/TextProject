@@ -23,8 +23,5 @@ public class DuplicateFind {
 		
 		DuplicateFind f = new DuplicateFind();
 		f.findDuplicate(a);
-		
-		
 	}
-
 }
