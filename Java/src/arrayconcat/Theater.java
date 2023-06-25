@@ -4,6 +4,8 @@ public class Theater {
 
 	int id;
 	String name;
+	Movie mv[];
+
 
 	public Theater(int id, String name, Movie[] mv) {
 		super();
@@ -12,7 +14,7 @@ public class Theater {
 		this.mv = mv;
 	}
 
-	Movie mv[];
+//	Movie mv[];
 
 	public String toString() {
 		return id + " " + name + " " + mv;

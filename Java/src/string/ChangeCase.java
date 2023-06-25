@@ -15,7 +15,7 @@ public class ChangeCase {
 			} else if (ch[i] == 'A' || ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U') {
 
 				ch[i] = (char) (ch[i] + 32);
-			System.out.println(ch[i]);
+//			System.out.println(ch[i]);
 			}
 		}
 		String s1 = new String(ch);
